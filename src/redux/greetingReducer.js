@@ -1,7 +1,7 @@
 import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
 import axios from 'axios';
 
-const API_PATH = 'https://random-greeting-dvc.herokuapp.com/api/v1/hello';
+const API_PATH = 'http://127.0.0.1:3000/api/v1/hello/';
 const initialState = '';
 
 const headers = {
