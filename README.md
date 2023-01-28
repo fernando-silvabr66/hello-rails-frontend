@@ -1,70 +1,189 @@
-# Getting Started with Create React App
+<a name="readme-top"></a>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-## Available Scripts
+# 📗 Table of Contents
 
-In the project directory, you can run:
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ (OPTIONAL)](#faq)
+- [📝 License](#license)
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# 📖 [Hello-Rails-Frontend] <a name="about-project"></a>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Hello-Rails-Frontend is a react app created as a front end having a rails app as the backend that will print random greeting messages.
 
-### `npm test`
+## Images
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![image](https://user-images.githubusercontent.com/77974883/215293463-bd739c86-c853-4bc1-a9df-b352547fef0f.png)
+![image](https://user-images.githubusercontent.com/77974883/215293482-b9ad68c7-1163-4dcd-8710-0491e59ceee2.png)
+![image](https://user-images.githubusercontent.com/77974883/215293491-c5676aad-9583-4bb7-80cc-2f8148839ffe.png)
+![image](https://user-images.githubusercontent.com/77974883/215293503-c9e2741a-e649-431d-b0e0-69f8ce76dae2.png)
+![image](https://user-images.githubusercontent.com/77974883/215293527-fbebad4b-26c7-4ab5-b9ef-a8d54124ba2b.png)
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🛠 Built With <a name="built-with"></a>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Ruby
+- Rails
+- Gem
+- postgresql
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Tech Stack <a name="tech-stack"></a>
 
-### `npm run eject`
+> Describe the tech stack and include only the relevant sections that apply to your project.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://reactjs.org/">React.js</a></li>
+  </ul>
+</details>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<details>
+  <summary>Server</summary>
+  <ul>
+    <li><a href="https://expressjs.com/">Express.js</a></li>
+  </ul>
+</details>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<details>
+<summary>Database</summary>
+  <ul>
+    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+  </ul>
+</details>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Key Features <a name="key-features"></a>
 
-## Learn More
+> Describe between 1-3 key features of the application.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- **[react-redux]** uses react-redux to show different greeting messages when te user refreshs the page.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Code Splitting
+## 🚀 Live Demo <a name="live-demo"></a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+> Add a link to your deployed project.
 
-### Analyzing the Bundle Size
+- [Live Demo Link](https://yourdeployedapplicationlink.com)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Making a Progressive Web App
+## 💻 Getting Started <a name="getting-started"></a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+> Describe how a new developer could make use of your project.
 
-### Advanced Configuration
+To get a local copy up and running, follow these steps.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Prerequisites
+
+In order to run this project you need to make sure you have installed locally:
+- Ruby 
+- Nodejs
+
+### Setup
+
+Clone this repository to your desired folder:
+git clone https://github.com/fernando-silvabr66/hello-rails-frontend
+
+## API link:
+
+https://github.com/fernando-silvabr66/hello-rails-backend
+
+### Install
+
+Install this project with:
+
+Execute on console making sure you are in the correct directory:
+```sh
+bundle install
+npm i
+```
+### Usage
+
+To run the project, execute the following command:
+
+- note: please check for necessary user and password in your local postgresql database and you may update it in database.yml under config folder in the backend app.
+
+- On console execute
+```sh
+npm i
+
+npm start
+```
+
+- note: when asked for a new port for local host type "y"
+
+
+### Run tests
+
+To run tests, run the following command:
 
 ### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+You can deploy this project using:
 
-### `npm run build` fails to minify
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 👥 Authors <a name="authors"></a>
+
+👤 **Fernando César da Silva**
+
+- GitHub: [@fernando-silvabr66](https://github.com/fernando-silvabr66)
+- Twitter: [@fsilvabr1](https://twitter.com/fsilvabr1)
+- LinkedIn: [https://linkedin.com/in/fernando-silvabr66](https://linkedin.com/in/fernando-silvabr66) 
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🔭 Future Features <a name="future-features"></a>
+
+> Describe 1 - 3 features you will add to the project.:
+
+- Implement click button to refresh greetings.
+- Implement remote API fetching.
+- Review different design approach.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## ⭐️ Show your support <a name="support"></a>
+
+If you like this project please leave a star.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+> I would like to thank Microverse and everyone whose code may have inspired this project.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
