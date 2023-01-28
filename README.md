@@ -151,7 +151,11 @@ You can deploy this project using:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
+> Describe 1 - 3 features you will add to the project.:
+
+- Implement click button to refresh greetings.
+- Implement remote API fetching.
+- Review different design approach.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
