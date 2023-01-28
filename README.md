@@ -100,6 +100,10 @@ In order to run this project you need to make sure you have installed locally:
 Clone this repository to your desired folder:
 git clone https://github.com/fernando-silvabr66/hello-rails-frontend
 
+## API link:
+
+https://github.com/fernando-silvabr66/hello-rails-backend
+
 ### Install
 
 Install this project with:
